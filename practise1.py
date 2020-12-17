@@ -43,7 +43,53 @@ print(two_d_arr2)
 three_d_arrays = np.array([[[1,2,3],[3,4,5]], [[1,2,4], [5,6,7]]])
 print(three_d_arrays)
 
+print(three_d_arrays.shape)
 
+
+arr10 = np.array([1,2,3,4,5])
+print(arr10)
+
+
+#0-D array
+arr0 = np.array(100)
+print(arr0)
+
+
+#1-D
+one_dimension_arr = np.array([1,2,3,4,5,6])
+
+print(one_dimension_arr)
+
+#2-D arrays
+two_dimension_arr = np.array([[1,2,3,4],[5,6,7,8]])
+print(two_dimension_arr)
+
+#3-D arrays
+three_dimension_arr = np.array([[[1,2,3],[4,5,6]], [[1,2,3], [4,5,6]]])
+print(three_dimension_arr)
+
+#3-d arrays
+three_d_arrs = np.array([[[1,2,3],[4,5,6]], [[1,2,3],[4,5,6]]])
+print(three_d_arrs)
+
+#Check dimensions
+print(arr0.ndim)
+
+print(one_dimension_arr.ndim)
+
+print(two_dimension_arr.ndim)
+print(three_dimension_arr.ndim)
+print(three_d_arrs.ndim)
+
+#Creating higher dimensional arrays
+five_dimension_arrs = np.array([1,2,3,4,5], ndmin=5)
+print(five_dimension_arrs)
+print("Arr", five_dimension_arrs.ndim)
+
+#Six dimension
+six_dimension_arr = np.array([1,2,3], ndmin=6)
+print(six_dimension_arr)
+print("Dimension:", six_dimension_arr.ndim)
 
 
 
