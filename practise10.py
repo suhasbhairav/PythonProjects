@@ -1,0 +1,16 @@
+import numpy as np
+
+#Split arrays
+arr = np.array([1,2,3,4,5,6])
+newarr = np.split(arr, 3)
+print(newarr)
+
+arr2 = np.array([1,2,3,4,5,6])
+newarr = np.split(arr2, 2)
+print(newarr)
+
+newarr = np.array_split(arr, 3)
+print(newarr)
+
+newarr = np.array_split(arr, 4)
+print(newarr)
